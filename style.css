@@ -1,0 +1,41 @@
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+    font-family: Inter,  sans-serif;
+    font-size: 20px; 
+    background-color: #D6FF6B; 
+    color: #000000; 
+    text-decoration-color: #000000
+}
+    h1 {
+    color: #000000; 
+    font-size: 24px; 
+    font-family: Inter, sans-serif; 
+}
+/*  подвал  */
+.footerInner {
+    padding:50px 10%;
+    color: #fff;
+}
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+}
+
+h2:hover {
+    animation: color-change 3s infinite;
+}
+  
